@@ -1,2 +1,2 @@
 # tradeshop.github.io
-Github pages repo - addons and stuff
+This repo powers our website at https://tradeshop.github.io.
