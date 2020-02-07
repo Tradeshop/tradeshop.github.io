@@ -1,0 +1,75 @@
+<!DOCTYPE HTML>
+<!--
+	Phantom by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>Addon Framework | TradeShop Plugin</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+	</head>
+	<body class="is-preload">
+		<!-- Wrapper -->
+			<div id="wrapper">
+
+				<!-- Header -->
+					<header id="header">
+						<div class="inner">
+
+							<!-- Logo -->
+								<a href="index.html" class="logo">
+									<span class="title">TradeShop Documentation</span>
+								</a>
+						</div>
+					</header>
+
+				<!-- Main -->
+					<div id="main">
+						<div class="inner">
+							<h1>TradeShop Addon Framework</h1>
+							<!--<span class="image main"><img src="images/pic13.jpg" alt="" /></span>-->
+							<p>The TradeShop Addon Framework (TSAF) makes it possible to hook into the TradeShop plugin, and develop extra features, commands and shop types, and powers all of our <a href="addons.html">official addons</a>.<br/>
+							To use it, you have to add TradeShop to your dependencies using maven, like this:</p>
+							<p><strong>Step 1.</strong> Add the JitPack repository to your build file</p>
+							<pre><code>&lt;repositories&gt;
+	&lt;repository&gt;
+	    &lt;id&gt;jitpack.io&lt;/id&gt;
+	    &lt;url&gt;https://jitpack.io&lt;/url&gt;
+	&lt;/repository&gt;
+&lt;/repositories&gt;</code></pre>
+							<p><strong>Step 2.</strong> Add the dependency</p>
+							<pre><code>&lt;dependencies&gt;
+	&lt;dependency&gt;
+	    &lt;groupId&gt;com.github.Tradeshop&lt;/groupId&gt;
+	    &lt;artifactId&gt;TradeShop&lt;/artifactId&gt;
+	    &lt;version&gt;Tag&lt;/version&gt;
+	&lt;/dependency&gt;
+&lt;/dependencies&gt;</code></pre>
+							<p>At this point you are able to access all classes of the TradeShop plugin. However, it is highly recommended that you <strong>do not use any of them</strong>. Instead, setup listeners so that you can catch the plugin's events as they are fired. You can read live javadocs for the classes belonging to the framework <a href="docs/">here</a>.</p>
+						</div>
+					</div>
+
+				<!-- Footer -->
+					<footer id="footer">
+						<div class="inner">
+							<ul class="copyright">
+								<li>&copy; 2016 - 2020 TradeShop Plugin. All rights reserved</li><li>Website Design: <a href="http://html5up.net">HTML5 UP</a></li>
+							</ul>
+						</div>
+					</footer>
+
+			</div>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>
